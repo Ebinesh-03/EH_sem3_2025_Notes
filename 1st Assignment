@@ -1,1 +1,22 @@
+#Report
+WannaCry Ransomware Attack – Hack Timeline 
+Report 
+Methodology 
+I selected the WannaCry ransomware (2017) as a case study. I researched the attack using 
+trusted cybersecurity blogs, incident reports, and CVE databases. I then broke down the 
+attack using the 6-phase kill chain: Reconnaissance, Weaponization, Delivery, 
+Exploitation, Installation, and Command & Control. 
+Findings 
+SMBv1 was the exploited protocol (vulnerability: CVE-2017-0144) 
+Attackers used EternalBlue, a leaked NSA exploit 
+The ransomware spread across unpatched Windows systems rapidly- Over 200,000 
+machines across 150+ countries were affected 
+Conclusions 
+Highlighted the dangers of using outdated protocols like SMBv1. 
+Showed the importance of timely patching and network hygiene. 
+Demonstrated the destructive potential of self-spreading malware. 
+Code/Scripts 
+No live exploit was used (as per ethical standards). Simulations and port scans were 
+performed using safe tools: - nmap -p 445 scanme.nmap.org - smbclient & smbmap for SMB enumeration.
+#ScreenShots
 
